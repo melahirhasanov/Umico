@@ -1,0 +1,270 @@
+.Header1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:0px 40px;
+    background-color: rgb(4, 12, 95);
+    padding: 15px 50px;
+      box-sizing: border-box;
+
+    
+}
+.headerleftOne{
+     display: flex;
+    flex-direction: row;
+    gap:30px;
+}
+.HeaderRight{
+         display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+.HeaderPhone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    
+}
+.HeaderUser{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    
+}
+.HedLogo{
+    height: 23px;
+    width: 23px;
+        margin: 20px;
+    margin-right: -12px;
+
+}
+.uHed1{
+    font-size: 53px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: aliceblue;padding: 0px;}
+.Header2{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    background-color: rgb(4, 12, 95);
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+      box-sizing: border-box;
+
+}
+.Locattion{
+    display: flex;
+    flex-direction: row;
+        align-items: center;
+        gap: 15px;
+
+}
+.Heart{
+     display: flex;
+    flex-direction: row;
+        align-items: center;
+        gap: 15px;
+
+
+}
+.basket{
+     display: flex;
+    flex-direction: row;
+        align-items: center;
+        gap: 15px;
+
+
+}
+.Select1{
+    border: none;
+    overflow: hidden;
+    outline: none;
+        background-color: rgb(4, 12, 95);
+        color: azure;
+
+
+    
+}
+.Select2{
+    border: none;
+    overflow: hidden;
+    outline: none;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    height: 45px;
+    border-radius: 5px;
+    margin: 27px 40px;
+    background-color: rgb(140, 77, 241);
+
+
+}
+
+.Option{
+    background-color: white;
+    color: black;
+}
+.Search{
+    margin-top: 30px;
+    margin-left: -90px;
+    
+}
+.SearchInput{
+    border: none;
+    outline: none;
+    background-color: white;
+    font-size: 20px;
+    height: 44px;
+    border-radius: 4px;
+    width: 400px;
+}
+.ButonSearch{
+     border: none;
+    outline: none;
+    background-color: rgb(148, 4, 251);
+    width: 80px;
+    height: 44px;
+    padding-top: 10px ;
+    padding-bottom: 5px;
+    color: white;
+
+    
+}
+.HeaderHed{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+.HeaderHed:hover{
+ 
+    color: rgba(255, 255, 255, 0.582);
+}
+#PhoneIcon{
+    color: aliceblue;
+}
+.PhoneNum{
+color: aliceblue;
+}
+#UserIcon{
+    color: aliceblue;
+}
+.User{
+    color: aliceblue;
+}
+#LocaIco{
+    color: aliceblue;
+    font-size: 30px;
+
+}
+.Locaco{
+    color: aliceblue;
+}
+#HeartIco{
+    color: aliceblue;
+    font-size: 22px;
+}
+#BasketIco{
+    color: aliceblue;
+        font-size: 22px;
+
+}
+.Heartm{
+    color: aliceblue;
+        font-size: 22px;
+
+
+}
+.Basketm{
+    color: aliceblue;
+        font-size: 22px;
+
+}
+#Umic{
+    background: linear-gradient(to right, #7f5af0, #ff5b9e);
+padding: 3px;
+}
+.AllHeader{
+  box-sizing: border-box;
+  width: 100%;
+}
+@media(max-width:1578px) {
+    .Header1{
+        width: 130%;
+    }
+     .Header2{
+        width: 130%;
+    }
+}
+@media(max-width:675px) {
+  
+     .Header2{
+        width: 200%;
+    }
+    .Select2{
+font-size: 12px;
+width: 30px;        
+    }
+    .Heartm{
+        display: none;
+    }
+    .Basketm{
+        display: none;
+    }
+}
+@media(max-width:560px){.Search{
+    display: none;
+}} 
+@media(max-width:560px){.Locattion{
+    display: none;
+}
+} 
+@media(max-width:1208px) {
+    .Header1{
+        width: 160%;
+    }
+     .Header2{
+        width: 160%;
+    }
+}
+@media(max-width:977px) {
+    .Header1{
+        width: 180%;
+    }
+     .Header2{
+        width: 180%;
+    }
+}
+#Bars{
+    display: none;
+}
+@media(max-width:870px) {
+    .Header1{
+display: none;    }
+
+     .Header2{
+        width: 200%;
+    }
+    #Bars{
+        display: block!important;
+        color: rgb(246, 246, 246);
+                margin:40px 3px 15px 6px;
+                font-size: 20px;
+
+    }
+    .SearchInput{
+        width: 200px;
+
+    }
+    .uHed1{
+        font-size: 35px;
+    }
+.Select2{
+    width: 180px;
+}
+}
+@media(max-width:360px){.Header2{
+width: 220%}
+} 
+

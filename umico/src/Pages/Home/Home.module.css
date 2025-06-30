@@ -1,0 +1,1017 @@
+.overlay{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+.menuContainer{
+    position: relative;
+    display: flex;
+    width: fit-content;
+    overflow: visible;
+    height: 500px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow:  0 8px 20px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', sans-serif;
+    z-index: 101;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+.leftColumn{
+    width: 260px;
+    height: 100%;
+    background-color: #f6f8fc;
+    border-right: 1px solid #e0e0e0;
+    overflow-y: auto;
+}
+.leftColumn::-webkit-scrollbar{width: 0;}
+.leftColumn:hover::-webkit-scrollbar{width: 6px;}
+.leftColumn::-webkit-scrollbar-thumb{background-color: #ccc;border-radius: 10px;}
+.leftItem{
+    padding: 14px 18px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 15px;
+    color: #333;
+
+}
+.leftItem:hover{
+    background-color: #eaf2ff;
+    color: #0066cc;
+    padding-left: 22px;
+}
+.rightColumn{
+    position: absolute;
+    top:0;
+    left: 260px;
+    width:500px;
+    height: 100%;
+    padding: 20px 16px;
+    background-color: #fefefe;
+    border-left:1px solid #e0e0e0;
+      box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
+    overflow-y: auto;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease;
+
+}
+.leftColumn:hover~.rightColumn,
+.rightColum:hover{
+    opacity: 1;
+    pointer-events: auto;
+}
+.rightColumn::-webkit-scrollbar {
+  width: 0;
+}
+.rightColumn:hover::-webkit-scrollbar {
+  width: 6px;
+}
+.rightColumn:hover::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+.subMenu{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    animation: fadeIn 0.3s ease;
+}
+.subItem{
+    padding: 10px 14px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: background-color 0.2 ease,transform 0.2 ease;
+    color: #222;
+    font-size: 14px;
+}
+.subItem:hover{
+    background-color:  #e0ecff;
+    transform: translate(4px);
+    color: #0047ab;
+
+}
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+        transform: translateX(10px);
+}
+to{
+    opacity: 0;
+    transform: translateX(0px);
+}
+}
+.SwipeImg{
+    height: 500px;
+    width: 750px;
+}
+.Swipe{
+    height: 500px;
+    width: 750px;
+    margin-top: -500px;
+}
+.CatalogDiv{
+    display: flex;
+    flex-direction: column;
+        margin-left: 1180px;
+        margin-top:-500px;
+
+}
+.CatalogImg{
+    height: 160px;
+    width: 300px;
+    margin-bottom: 10px;
+
+}
+.CatalogCartDiv{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 30px;
+
+}
+.CatalogCart{
+    display: flex;
+    flex-direction: row;
+    margin-left: 390px;
+    margin-top: 20px;
+
+}
+#BagId{
+    background-color: rgb(6, 211, 215);
+    border-radius: 50%;
+    padding: 12px;
+    color: white;
+}
+.BagP{
+    margin-left: 7px;
+}
+#TruckId{
+    background-color: rgb(119, 8, 255);
+    border-radius: 50%;
+    padding: 12px;
+    color: white;
+}
+.TruckP{
+    margin-left: 7px;
+}
+#PercentId{
+    background-color: rgb(249, 64, 126);
+    border-radius: 50%;
+    padding: 12px;
+    color: white;
+    font-size: 20px;
+}
+.PercentP{
+    margin-left: 7px;
+}
+#CartId{
+    background-color: rgb(255, 255, 7);
+    border-radius: 50%;
+    padding: 12px;
+}
+.CartP{
+    margin-left: 7px;
+}
+.AgeSeenHeader{
+    margin-left: 130px;
+    font-size: 26px;
+    margin-top: 30px;
+
+}
+.EpHeader{
+    margin-left: 130px;
+    font-size: 35px;
+    margin-top: 5px;
+
+}
+.AsCartImg{
+    height: 190px;
+    width: 230px;
+}
+.AgeSeenCart{
+padding:40px 20px;
+height:fit-content;
+width: fit-content;
+background-color:white;
+margin: 20px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#ASHeart{
+    margin-top: -20px !important;
+    color: red;
+    position: absolute;
+}
+#balance{
+        position: absolute;
+        margin-top: 7px;
+        color: grAY;
+
+}
+
+.PartnerPemium{
+    margin-top: -180px;
+    position: absolute;
+    background-color: white;
+    padding: 2px;
+    border-radius: 10px;
+border: 3px solid transparent;
+  border-image: linear-gradient(
+    to right,
+    rgb(75, 0, 130),
+    rgb(221, 160, 221)
+  ) 1;
+  border-image-source: 12px;
+;
+}
+.Partner{
+    text-align:center;
+        background: linear-gradient(
+    to right,
+    rgb(75, 0, 130),    /* tünd bənövşəyi */
+    rgb(221, 160, 221)  /* açıq bənövşəyi */
+  );
+  /* Mətni göstərmək üçün background-u “kəsməliyik” */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  /* Standart (Firefox) dəstəyi üçün */
+  background-clip: text;
+  color: transparent; /* PREMIUM yazısı */
+        font-size: 12px;
+
+}
+.Premium{
+      background: linear-gradient(
+    to right,
+    rgb(75, 0, 130),    /* tünd bənövşəyi */
+    rgb(221, 160, 221)  /* açıq bənövşəyi */
+  );
+  /* Mətni göstərmək üçün background-u “kəsməliyik” */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* Standart (Firefox) dəstəyi üçün */
+  background-clip: text;
+  color: transparent;/* PARTNER yazısı */
+        font-size: 15px;
+
+}
+.AsPercent{
+    margin-bottom: 20px;
+    background-color: rgb(249, 110, 158);
+    width: fit-content;
+    padding: 5px 9px;
+    color: white;
+    border-radius: 7px;
+}
+.AsPercents{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.MainParcent{
+    color: rgb(249, 110, 158);
+    font-size: 23px;
+}
+.LessParcent{
+        font-size: 15px;
+        color: gray;
+        margin-top: 5px;
+        text-decoration: line-through;
+}
+.TaksiteFigure{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: rgb(255, 200, 0);
+    width: fit-content;
+}
+.ASName{
+    margin: 15px 3px;
+}
+.ASReiting{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    margin-bottom: 20px;
+}
+.AsStar{
+    color: rgb(255, 136, 0);
+}
+.AsStarNull{
+    color: white;
+    color: #222;
+
+}
+.ReintgTitle{
+    color: rgb(34, 91, 214);
+}
+.AsBasket{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#AsBasketIcon{
+    font-size: 18px!important;
+        color: rgb(34, 91, 214);
+
+}
+.shopTitle{
+        font-size: 18px!important;
+        color: rgb(34, 91, 214);
+}
+.AgeSeenCarts{
+    display: flex;
+    flex-direction: row;
+}
+.EndPercent{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 50px;
+  
+}
+.CountDown1{
+    padding: 20px;
+    background-color: rgb(249, 110, 158);
+
+}
+
+.EPHours{
+     padding: 20px;
+    background-color: rgb(255, 35, 112);
+    color: white;
+    font-weight: bold;
+
+
+}
+.Swiper{
+    width: 70%;
+    margin-top: 100px;
+    gap: 2px;
+
+ 
+}
+.AgeSeenCarti{
+padding:40px 20px;
+height:fit-content;
+width: fit-content;
+background-color:white;
+margin: 20px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+padding: 40px;
+margin-bottom: 50px;
+}
+.AgeSeenCartss{
+    display: flex;
+    flex-direction: column;
+}
+.buttonAll{
+    width: fit-content;
+    margin: auto;
+        margin-top: 20px;
+        text-decoration: none;
+        color:rgb(34, 91, 214);
+        background-color: white;
+        padding: 20px 140px;
+        font-size: 18px;
+        border: 1px solid rgb(34, 91, 214);
+
+}
+.EndCost{
+display: flex;
+flex-direction: row;
+gap: 10px;
+}
+.EcHeader{
+    margin-left: 130px;
+    font-size: 35px;
+    margin-top: 85px;
+
+
+}
+.HedLogo{
+    height: 15px;
+    width: 15px;
+        margin: 20px;
+    margin-right: -12px;
+
+}
+.uHed1{
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: rgb(1, 14, 26);padding: 0px;
+margin-top: 60px;}
+.Market{
+    font-family:cursive;
+    color: rgb(249, 110, 158);
+}
+.AllCatadiv{
+margin:50px 150px;    
+}
+.BigImg{
+    height: 450px;
+    width: 450px;
+}
+.FourDiv{
+    max-width: 450px;
+}
+.firstDiv{
+    display: flex;
+    flex-direction: row;
+}
+.FourImg{
+    height: 215px;
+    width: 200px;
+}
+.FourDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 20px;
+}
+.ColumCata{
+    display: flex;
+    flex-direction: column;
+}
+.SmallImg{
+        height: 215px;
+    width: 200px;
+}
+.LargeSmallDiv{
+     display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.LargeImg{
+height: 220px;
+width: 640px;
+}
+.FiveDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.FiveImg{
+    height: 250px;
+    width: 250px;
+    margin-top: 20px;
+}
+.EbHeader{
+        margin-left: 130px;
+    font-size: 30px;
+    margin-top: 85px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.PopulyarBrends{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 100px;
+    
+}
+.BrandImg{
+background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   max-height: 100px;
+   max-width: 150px;
+   padding: 10px 30px;
+   margin-bottom: 30px;
+}
+.Brend{
+    width: 140px;
+}
+.BrandSwiper{
+    margin-top: 50px;
+}
+.Brendss{
+    margin-top: 200px;
+}
+.AgeSeenCartsim{
+    display: flex;
+    flex-direction: column;
+}
+.buttonAlls{
+    
+    width: fit-content;
+    margin: auto;
+        margin-top: 20px;
+        text-decoration: none;
+        color:rgb(34, 91, 214);
+        background-color: white;
+        padding: 20px 140px;
+        font-size: 18px;
+        border: 1px solid rgb(34, 91, 214);
+
+}
+.PhotoActual{
+    max-width: 120px;
+    width: 120px;
+}
+.ActualCarts{
+display: flex;
+flex-direction: row;
+margin:120px 180px 10px 180px;
+gap: 90px;
+
+}
+.buttonAllss{
+    
+    width: fit-content;
+    margin: auto;
+        margin-top: 20px;
+        text-decoration: none;
+        color:rgb(34, 91, 214);
+        background-color: white;
+        padding: 20px 140px;
+        font-size: 18px;
+        border: 1px solid rgb(34, 91, 214);
+        margin-left: 450px;
+}
+.ElHeader{
+text-align: center; 
+   font-size: 27px;
+    margin-top: 85px;
+
+
+}
+.Aksion{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.AksionImg{
+    width: 280px;
+    height: 230px;
+    margin: 10px;
+}
+.Meega{
+    color: white;
+    background-color: rgb(249, 110, 158);
+    padding: 10px;
+    border-radius: 10px;
+}
+.Swipers{
+    width: 95%;
+    margin-top: 100px;
+    gap: 2px;
+
+ 
+}
+.Aksiyona{
+     margin-top: -140px;
+    position: absolute;
+    background-color: white;
+    padding: 2px;
+    border-radius: 10px;
+border: 3px solid transparent;
+  border-image: linear-gradient(
+    to right,
+    rgb(75, 0, 130),
+    rgb(221, 160, 221)
+  ) 1;
+  border-image-source: 12px;
+  background-color: rgb(75, 0, 130);
+  color: white
+;
+}
+.Aksiyona1{
+     margin-top: -100px;
+    position: absolute;
+    background-color: white;
+    padding: 2px;
+    border-radius: 10px;
+border: 3px solid transparent;
+  border-image: linear-gradient(
+    to right,
+    rgb(75, 0, 130),
+    rgb(221, 160, 221)
+    
+  ) 1;
+  border-image-source: 12px;
+;
+  background-color: rgb(75, 0, 130);
+  color: white
+}
+.Aksiyona2{
+     margin-top: -170px;
+    position: absolute;
+    background-color: white;
+    padding: 2px;
+    border-radius: 10px;
+border: 3px solid transparent;
+  border-image: linear-gradient(
+    to right,
+    rgb(75, 0, 130),
+    rgb(221, 160, 221)
+  ) 1;
+  border-image-source: 12px;
+;
+  background-color: rgb(75, 0, 130);
+  color: white;
+  margin-bottom: -10px;
+}
+.Footer1{
+    margin: 80px 150px 20px 150px;
+    display: flex;
+    flex-direction: row;
+}
+.Footer1title{
+    margin-left: 100px;
+}
+.P2Footer1{
+    margin-bottom: 30px;
+}
+.p3Footer1{
+    margin-bottom: 30px;
+}
+.Footer1Hed{
+    margin-bottom: 30px;
+}
+.PFooter1{
+    margin-bottom: 30px;
+}
+#CarttId{
+    background-color: rgb(113, 73, 245);
+    border-radius: 50%;
+    padding: 12px;
+    color: white;
+}
+.Footer1Button{
+    background-color: rgb(113, 73, 245);
+    color: white;
+    padding: 20px 70px;
+    border: none;
+}
+.Footer22img{
+    height: 600px;
+    width: 800px;
+    margin-top: -60px;
+
+}
+.Footer2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 150px;
+    background: #662bf0;
+
+    padding-top: 180px;
+}
+.Footer2Hed{
+    margin-top: 50px;
+        font-size: 35px!important;
+
+}
+.PFooter2{
+    color: white;
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.P1Footer2{
+    color: white;
+    margin: 10px 0px;
+        font-size: 20px;
+
+}.P2Footer2{
+    color: white;
+    margin: 10px 0px;
+        font-size: 20px;
+
+}.P3Footer2{
+    color: white;
+    margin: 10px 0px;
+        font-size: 20px;
+
+}
+.P4Footer2{
+   color: white;
+    margin: 10px 0px;
+        font-size: 20px;
+
+}
+.Footer2Hed{
+    color: white;
+        font-size: 20px;
+
+}
+.Footer2title{
+    margin-left: 150px;
+}
+.AsCartImgI{
+height: 190px;
+width: 230px;
+}
+.Footer2Button{
+    background-color: rgb(245, 12, 66);
+    color: white;
+    padding: 20px 100px;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    margin-top: 30px;
+}
+.AltImg{
+    height: 50px;
+    width: 200px;
+}
+.altDIv{
+    position: absolute;
+margin-top: -120px;
+margin-left: -700px;
+
+}
+.Sil{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+}
+.Sill{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+.Stehero{
+display: flex;
+flex-direction: row;
+}
+@media(max-width:675px) {
+    .menuContainer{
+        display: none;
+    } 
+    .Swipe{
+        margin-top: 60px;
+    }
+    .CatalogDiv{
+        margin-top: 100px;
+        margin-left: 20px !important;
+        gap: 10px;
+        position: relative;
+    display: flex;
+    flex-direction: row;
+}
+#DisplayNone{
+    display: none;
+}
+.AgeSeenCarts{
+    margin-left: 80px;
+}
+.Swiper{
+    width: 130%;
+    margin-top: 100px;
+    gap: 2px;
+
+ 
+}
+.AgeSeenCartss{
+    margin-left: 10px;
+}
+.AllCatadiv{
+    display: flex;
+    flex-direction: column;
+}
+.BigImg{
+    height: 220px;
+    width: 220px;
+}
+.FourDiv{
+    display: flex;
+    flex-direction: column;
+}
+.firstDiv{
+    display: flex;
+    flex-direction: column;
+}
+.Sil{
+    gap: 10px;
+}
+
+.Sill{
+    display: flex;
+    flex-direction: column;
+
+}
+.BigImg{
+    margin-bottom: 30px;
+}
+.LargeImg{
+    width: 230px;
+}
+#DiplayNonen{
+    display: none !important;
+}
+#DisplayNonen{
+    display: none !important;
+}
+#DiplayNone{
+    display: none;
+}
+.Aksion{
+    margin-left: 250px!important;
+}
+.Swipers{
+    width: 160%;
+    gap: 70px;
+
+}
+.AgeSeenCarti{
+    margin: 5px;
+}
+.AsCartImgI{
+    height: 100px;
+    width: 130px;
+}
+.Swiper{
+    margin-left: 200px;
+}
+.FourImg{
+    margin: 10px;
+}
+#Falso{
+    display: none;
+}
+.PopulyarBrends{
+    width: 100%;
+}
+.CatalogCart{
+    margin-left: 20px;
+}
+.buttonAll{
+    margin-left: 100px;
+}
+#CartId{
+    padding: 4px!important;
+    border-radius: 50%;
+    height: 20px;
+}
+#PercentId{
+padding: 4px!important;
+    border-radius: 50%;
+    height: 20px;
+}
+#TruckId{
+    padding: 4px!important;
+    border-radius: 50%;
+    height: 20px;
+}
+.buttonAllss{
+    margin-left: 100px!important;
+    padding: 20px 10px!important;
+    font-size: 14px!important;
+}
+#BagId{
+    padding: 4px!important;
+    border-radius: 50%;
+    height: 20px;
+}
+.Stehero{
+display: flex;
+flex-direction: column;
+}
+
+}
+@media(max-width:875px) {
+    .menuContainer{
+        display: none;
+    } 
+    .Swipe{
+        margin-top: 60px;
+    }
+    .CatalogDiv{
+    margin-left: 780px;
+}
+#DisplayNone{
+    display: none;
+}
+.AgeSeenCarts{
+    margin-left: 80px;
+}
+.Swiper{
+    width: 130%;
+    margin-top: 100px;
+    gap: 2px;
+
+ 
+}
+.AllCatadiv{
+    display: flex;
+    flex-direction: column;
+}
+.BigImg{
+    height: 220px;
+    width: 220px;
+}
+.FourDiv{
+    display: flex;
+    flex-direction: column;
+}
+.firstDiv{
+    display: flex;
+    flex-direction: column;
+}
+.Sil{
+    gap: 10px;
+}
+.Sill{
+    display: flex;
+    flex-direction: column;
+
+}
+.BigImg{
+    margin-bottom: 30px;
+}
+.LargeImg{
+    width: 230px;
+}
+#DiplayNone{
+    display: none;
+}
+.Aksion{
+    margin-left: 250px!important;
+}
+.Swipers{
+    width: 160%;
+    gap: 70px;
+
+}
+.FourImg{
+    margin: 10px;
+}
+#Falso{
+    display: none;
+}
+.PopulyarBrends{
+    width: 100%;
+}
+.CatalogCart{
+    margin-left: 20px;
+}
+#CartId{
+    padding: 4px!important;
+    border-radius: 50%;
+    height: 20px;
+}
+#PercentId{
+padding: 4px!important;
+    border-radius: 50%;
+    height: 20px;
+}
+#TruckId{
+    padding: 4px!important;
+    border-radius: 50%;
+    height: 20px;
+}
+#BagId{
+    padding: 4px!important;
+    border-radius: 50%;
+    height: 20px;
+}
+.Stehero{
+display: flex;
+flex-direction: column;
+}
+
+}
+@media(max-width:390px){.Swipe{
+width: 700px;}
+} 
+@media(max-width:360px){.Swipe{
+width: 700px;}
+
+} 
+@media (min-width:872px) {
+    .CatalogDiv{
+        margin-left: 1240px!important;
+    }
+    .Swipe{
+        margin-left: 450px!important;
+    }
+    
+    
+}
+@media (min-width:770px) {
+    .CatalogDiv{
+        margin-left: 890px;
+    }
+    
+}
+
+
+
