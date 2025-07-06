@@ -834,10 +834,7 @@ flex-direction: row;
 .AgeSeenCarti{
     margin: 5px;
 }
-.AsCartImgI{
-    height: 100px;
-    width: 130px;
-}
+
 .Swiper{
     margin-left: 200px;
 }
@@ -847,9 +844,8 @@ flex-direction: row;
 #Falso{
     display: none;
 }
-.PopulyarBrends{
-    width: 100%;
-}
+
+
 .CatalogCart{
     margin-left: 20px;
 }
@@ -1006,12 +1002,640 @@ width: 700px;}
     
     
 }
+.Stril{
+    display: flex;
+    flex-direction: row;
+}
 @media (min-width:770px) {
     .CatalogDiv{
-        margin-left: 890px;
+        margin-left: 890px;}
     }
+@media (max-width:1577px) {
+   
+    .menuContainer{
+        margin-left: 50px;
+    }
+    .Swipe{
+        margin-left: 400px!important;
+        max-height: 450px;
+        margin-top: -430px;
+    }
+    .CatalogDiv{
+        margin-left: 1060px!important;
+        margin-top: -450px;
+    }
+    .SwipeImg{
+        height: 450px;
+        width: 630px;
+    }
+    .CatalogCart{
+        margin-left:50px!important;
+        margin-top: 60px;
+    }
+    .CatalogImg{
+        height: 144px;
+        width: 230px;
+    }
+    .menuContainer{
+        height: 450px;
+    }
+    #DisplayNoneme{
+        display: none!important;
+    }
+    #DiplayNonene{
+        display: none!important;
+    }
+    .BigImg{
+width: 300px;
+height: 300px;    }
+.FourImg{
+    width: 150px;
+height: 150px;
+}
+.SmallImg{
+    width: 140px;
+height: 140px;
+}
+.LargeImg{
+    width: 500px;
+height: 140px;
+}
+.FiveImg{
+    width: 180px;
+height: 180px;
+}
+.Swipers{
+    width: 70%;
+    margin-top: 100px;
+    gap: 2px;
+
+ 
+}
+.altDIv{
+    margin-top: -20px;
+
+}
+.Footer2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px!important;
+    width: 100%;
+    gap: 100px;
+    background: #662bf0;
+
+    padding-top: 180px;
+    padding-bottom: 100px;
+}
+.altDIv{
+margin-left: -500px;
+margin-top: -30px;
+}
+}
+@media (max-width:1444px) {
+    .altDIv{
+margin-left: -500px;
+margin-top: 30px;
+}
+.Footer2Button{
+        padding: 15px;
+}
+}
+@media (max-width:1319px) {
+   
+    .menuContainer{
+display: none;    }
+
+    .Swipe{
+        margin-left: 20px!important;
+        max-height: 450px;
+        margin-top: 30px;
+    }
+    .CatalogDiv{
+        margin-left: 660px!important;
+        margin-top: -450px;
+    }
+    .SwipeImg{
+        height: 450px;
+        width: 630px;
+    }
+    .CatalogCart{
+        margin-left:50px!important;
+        margin-top: 60px;
+    }
+    .CatalogImg{
+        height: 144px;
+        width: 230px;
+    }
+    .menuContainer{
+        height: 450px;
+    }
+    #DisplayNoneme{
+        display: none!important;
+    }
+    #DiplayNonene{
+        display: none!important;
+    }
+    .BigImg{
+width: 300px;
+height: 300px;    }
+.FourImg{
+    width: 150px;
+height: 150px;
+}
+.SmallImg{
+    width: 140px;
+height: 140px;
+}
+.LargeImg{
+    width: 500px;
+height: 140px;
+}
+.FiveImg{
+    width: 180px;
+height: 180px;
+}
+.Swipers{
+    width: 70%;
+    margin-top: 100px;
+    gap: 2px;
+
+ 
+}
+.altDIv{
+    margin-top: -20px;
+
+}
+.Footer2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px!important;
+    width: 100%;
+    gap: 100px;
+    background: #662bf0;
+
+    padding-top: 180px;
+    padding-bottom: 100px;
+}
+.altDIv{
+margin-left: -500px;
+margin-top: -30px;
+}
+#DisplayNonenim{
+    display: none;
+}
+.AgeSeenImg{
+    height: 250px;
+    width: 230px;
+}
+.Stril{
+    display: block;
+    margin-top: 20px;
+}
+.CatalogCartDiv{
+    margin-top: 10px;
+}
+.AgeSeenCartss{
+    margin-left: -200px;
+}
+.AllCatadiv{
+    margin: 50px 50px;
+}
+.BrandSwiper{
+    width: 60%;
+}
+.PopulyarBrends{
+    margin-left: -150px;
+}
+#DiplayNonen{
+    display: none;
+}
+.buttonAllss{
+    margin-left: 50px;
+}
+.buttonAlls{
+    margin-left: 50px;
+}
+.Aksion{
+    margin-left: -300px!important;
+}
+.Swipers{
+   width: 60%; 
+}
+.Footer1{
+    display: none;
+}
+.altDIv{
+    margin-top: 125px;
+    margin-left: -400px;
+}
+.Footer22img{
+    height: 400px;
+    width: 600px;
+}
+}
+@media (max-width:1181px) {
+    .altDIv{
+    margin-top: 175px;
+    margin-left: -400px;
+}}
+@media (max-width:1138px) {
+    .altDIv{
+    margin-top: 195px;
+    margin-left: -400px;
+}
     
 }
+@media (max-width:1115px) {
+    .altDIv{
+    margin-top: 250px;
+    margin-left: -400px;
+}
+    
+}
+@media (max-width:1053px) {
+    .altDIv{
+    margin-top: 180px;
+    margin-left: -300px;
+}
+#DisplayNonenmm{
+    display: none;
+}
+.Swiper{
+    width: 60%;
+}
+.BigImg{
+width: 180px;
+height: 210px;    }
+.FourImg{
+    width: 90px;
+height: 90px;
+}
+.SmallImg{
+    width: 90px;
+height: 90px;
+}
+.LargeImg{
+    width: 350px;
+height: 100px;
+}
+.FiveImg{
+    width: 130px;
+height: 130px;
+}
+#DiplayNonenm{
+    display: none;
+}
+#DiplayNonenimm{
+    display: none;
+}
+.Aksion{
+    margin-left: -80px!important;
+}
+.Footer2title{
+    margin-left: 10px;
+}
 
+}
 
+@media (max-width:1300px) {
+   .Aksion{
+    margin-left: -100px!important;
+   
+} 
+.AksionImg{
+ height: 180px;
+    width: 180px;
+}
 
+}
+@media (max-width:998px) {
+    .altDIv{
+    margin-top: 200px;
+    margin-left: -300px;
+}}
+
+@media (max-width:981px) {
+    .altDIv{
+    margin-top: 245px;
+    margin-left: -300px;
+}}
+
+@media (max-width:913px) {
+    .altDIv{
+    margin-top: 270px;
+    margin-left: -300px;
+}}
+@media (max-width:913px) {
+   
+    .menuContainer{
+display: none;    }
+
+    .Swipe{
+        margin-left: 20px!important;
+        max-height: 400px;
+        margin-top: 30px;
+        width: 70%;
+    }
+    .CatalogDiv{
+        margin-left: 20px!important;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .EndPercent{
+        margin-left: 10px!important;
+        display: flex;
+        flex-direction: column;
+    }
+    .EPHours{
+        width: fit-content;
+        margin: auto;
+    }
+    .SwipeImg{
+        height: 400px;
+        width: 580px;
+    }
+    .CatalogCart{
+        margin-left:10px!important;
+        margin-top: 60px;
+    }
+    .CatalogImg{
+        height: 100px;
+        width: 180px;
+    }
+    .menuContainer{
+        height: 450px;
+    }
+    #DisplayNoneme{
+        display: none!important;
+    }
+    #DiplayNonene{
+        display: none!important;
+    }
+    .BigImg{
+width: 140px;
+height: 140px;    }
+.FourImg{
+    width: 70px;
+height: 70px;
+}
+.SmallImg{
+    width: 70px;
+height: 70px;
+}
+.LargeImg{
+    width: 230px;
+height: 70px;
+}
+.FiveImg{
+    width: 100px;
+height: 100px;
+}
+.Swipers{
+    width: 70%;
+    margin-top: 100px;
+    gap: 2px;
+
+ 
+}
+.altDIv{
+    margin-top: -20px;
+
+}
+.Footer2{
+    display: none;
+}
+.altDIv{
+margin-left: -500px;
+margin-top: -30px;
+}
+#DisplayNonenim{
+    display: none;
+}
+.AgeSeenImg{
+    height: 250px;
+    width: 230px;
+}
+.Stril{
+    display: block;
+    margin-top: 20px;
+}
+.CatalogCartDiv{
+    margin-top: 10px;
+}
+.AgeSeenCartss{
+    margin-left: -200px;
+}
+.AllCatadiv{
+    margin: 50px 50px;
+}
+.BrandSwiper{
+    width: 60%;
+}
+.PopulyarBrends{
+    margin-left: -150px;
+}
+#DiplayNonen{
+    display: none;
+}
+.buttonAllss{
+    margin-left: 50px;
+}
+.buttonAlls{
+    margin-left: 50px;
+}
+.Aksion{
+    margin-left: -300px!important;
+}
+.Swipers{
+   width: 60%; 
+}
+.Footer1{
+    display: none;
+}
+.altDIv{
+    margin-top: 125px;
+    margin-left: -400px;
+}
+.Footer22img{
+    height: 400px;
+    width: 600px;
+}
+}
+@media (max-width:831px) {
+    .SwipeImg{
+        width: 400px;
+        height: 260px;
+    }
+    .Swipe{
+        max-height: 260px;
+        width: 50%;
+    }
+}
+@media (max-width:803px) {
+    .SwipeImg{
+        width: 350px;
+        height: 220px;
+    }
+    .Swipe{
+        max-height: 220px;
+        width: 50%;
+    }
+}
+@media (max-width:703px) {
+    .SwipeImg{
+        width:280px;
+        height: 220px;
+    }
+    .Swipe{
+        max-height: 220px;
+        width: 50%;
+    }
+    .AgeSeenCartss{
+        margin-left: 20px;
+    }
+    .PopulyarBrends{
+        margin-left: 0px !important;
+    }
+    .Aksion{
+        margin-left: 0px !important;
+    }
+    .Swipers{
+        margin-left: 10px !important;
+    }
+    .buttonAllss{
+        margin-left: 10px !important;
+                padding: 10px;
+
+    }
+    .buttonAlls{
+        margin-left: 10px !important;
+                padding: 10px;
+
+    }
+     .buttonAll{
+        margin-left: 10px !important;
+        padding: 10px;
+    }
+    .EndCost{
+        display: flex;
+        flex-direction: column;
+    }
+    #DisplayNonenimsin{
+        display:none !important;
+    }
+}
+@media (max-width:560px) {
+    .SwipeImg{
+        width: 270px;
+        height: 200px;
+    }
+    .Swipe{
+        max-height: 200px;
+        min-width: 50%;
+    }
+}
+@media (max-width:480px) {
+    .SwipeImg{
+        min-width: 240px;
+        height: 160px;
+    }
+    .Swipe{
+        max-height: 160px;
+        min-width: 50%;
+    }
+}
+@media (max-width:480px) {
+    .SwipeImg{
+        min-width:340px;
+        height: 250px;
+    }
+    .Swipe{
+        max-height: 250px;
+        min-width: 70%;
+    }
+}
+@media (max-width:419px) {
+    .SwipeImg{
+        min-width:420px;
+        height: 280px;
+    }
+    .Swipe{
+        max-height: 280px;
+        min-width: 90%;
+    }
+    .CatalogImg{
+        height: 130px;
+        width: 150px;
+    }
+}
+@media (max-width:400px) {
+    .SwipeImg{
+        min-width:400px;
+        height: 320px;
+    }
+    .Swipe{
+        max-height: 320px;
+        min-width: 94%;
+    }
+    .CatalogCart{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .Stril{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .AgeSeenCarts{
+        margin-left: 2px;
+    }
+    .EndPercent{
+        margin-left: -22px !important;
+    }
+    .AgeSeenCartss{
+        margin-left: 2px;
+
+    }
+    .AsCartImgI{
+        height: 150px !important;
+        width: 180px !important;
+    }
+    .ActualCart{        
+        margin-left: -100px !important;
+    }
+    .LargeImg{
+        display: none;
+    }
+}
+@media (max-width:378px) {
+    .SwipeImg{
+        min-width:340px;
+        height: 270px;
+    }
+    .Swipe{
+        max-height: 270px;
+        min-width: 92%;
+    }
+    .CatalogCart{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .CatalogImg{
+        height: 100px;
+        width: 120px;
+    }
+    .EpHeader{
+        font-size: 10px !important;
+    }
+    .EPHours{
+        padding: 5px;
+    }
+    .Swiper{
+        width: 90%;
+    }
+    .AksionImg{
+        height: 100px;
+        width: 100px;
+    }
+}

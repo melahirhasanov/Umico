@@ -135,3 +135,22 @@ margin-bottom: 10px;}
     }
     
 }
+.Footer3Divv{
+    margin-top: 200px;
+}
+@media (max-width:1319px) {
+.Footer7{
+    display: none;
+}  
+.Footer6{
+    display: none;
+}      
+}
+@media (max-width:650px) {
+.Footer4L2{
+    display: none !important;
+}  
+     .Footer5{
+    display: none !important;
+}  
+}

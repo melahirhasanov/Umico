@@ -191,16 +191,16 @@ padding: 3px;
 }
 @media(max-width:1578px) {
     .Header1{
-        width: 130%;
+        width: 100%;
     }
      .Header2{
-        width: 130%;
+        width: 100%;
     }
 }
 @media(max-width:675px) {
   
      .Header2{
-        width: 200%;
+        width: 100%;
     }
     .Select2{
 font-size: 12px;
@@ -222,18 +222,18 @@ width: 30px;
 } 
 @media(max-width:1208px) {
     .Header1{
-        width: 160%;
+        width: 100%;
     }
      .Header2{
-        width: 160%;
+        width: 100%;
     }
 }
 @media(max-width:977px) {
     .Header1{
-        width: 180%;
+        width: 100%;
     }
      .Header2{
-        width: 180%;
+        width: 100%;
     }
 }
 #Bars{
@@ -244,7 +244,7 @@ width: 30px;
 display: none;    }
 
      .Header2{
-        width: 200%;
+        width: 100%;
     }
     #Bars{
         display: block!important;
@@ -265,6 +265,119 @@ display: none;    }
 }
 }
 @media(max-width:360px){.Header2{
-width: 220%}
+width: 100%}
 } 
 
+@media(max-width:1577px){.uHed1{
+font-size: 40px;}
+.Select2{
+    font-size: 18px;
+    width: 160px;
+}
+.SearchInput{
+    width: 300px;
+
+}
+.ButonSearch{
+    width: 70px;
+}
+.Header1{
+    width: 100%;
+}
+.Header2{
+    
+    width: 100%;
+
+}
+
+
+} 
+@media (max-width:1319px) {
+    .Basketm{
+        display: none;
+    }
+     .Heartm{
+        display: none;
+    }
+}
+@media (max-width:1128px) {
+    .SearchInput{
+       width: 180px; 
+    }
+    .Select2{
+        font-size: 12px;
+        width:  120px;
+    }
+}
+@media (max-width:1069px) {
+    
+    .Header1{
+        display: none;
+    }
+   
+}
+@media (max-width:1069px) {
+    
+    .Locattion{
+        display: none;
+    }
+   
+}
+@media (max-width:856px) {
+    
+    .uHed1{
+        font-size: 23px;
+
+    }
+   .HedLogo{
+    height: 18px;
+    width: 18px;
+        margin: 20px;
+    margin-right: -12px;
+
+}
+.Select2{
+    font-size: 10px;
+    width: 100px;
+}
+.SearchInput{
+    width: 150px;
+}
+.ButonSearch{
+    width: 60px;
+}
+   
+}
+@media (max-width:803px) {
+    .Search{
+        display: none;
+    }
+}
+
+.strrr{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width:531px) {
+    .strrr{
+        display: block !important;
+    }
+    .Heart{
+        margin-top: -50px;
+    }
+    .basket{
+        margin-top: -50px;
+    }
+    
+}
+@media (max-width:401px) {
+    .Header2{
+        
+    
+    gap: 25px !important;
+
+
+    }
+    
+}

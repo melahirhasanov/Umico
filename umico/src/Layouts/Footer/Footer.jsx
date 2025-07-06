@@ -5,6 +5,7 @@ const Footer = () => {
 <>
 <div className={style.Footer3Divv}>
 <div className={style.Footer3Div}>
+  <div className={style.Footer3Div}>
   <h4 className={style.EcsHeader}>Hazırda aktual olanlar</h4>
   <span className={style.Footer3P}>router</span>
     <span className={style.Footer3P}>iphone 14</span>
@@ -14,31 +15,25 @@ const Footer = () => {
   <span className={style.Footer3P}>komputer</span>
   <span className={style.Footer3P}>ekran</span>
 <span className={style.Footer3P}>paltar</span>
-<span className={style.Footer3P}>yemek</span>
+<span className={style.Footer3P}>yemek</span></div><div>
  <span className={style.Footer3P}>eynek</span>
   <span className={style.Footer3P}>svitch</span>
   <span className={style.Footer3P}>notbuk</span>
-  <span className={style.Footer3P}>plansek</span>
-  <span className={style.Footer3P}>iphone16</span>
   <span className={style.Footer3P}>pizza</span>
   <span className={style.Footer3P}>klaviatura</span>
   <span className={style.Footer3P}>telefon</span>
   <span className={style.Footer3P}>smartfon</span>
-  </div>
+  </div></div>
 <div className={style.Footer3Div}>
+  <div className={style.Footer3Div}>
   <span className={style.Footer3P}>router</span>
     <span className={style.Footer3P}>router</span>
   <span className={style.Footer3P}>router</span>
   <span className={style.Footer3P}>router</span>
   <span className={style.Footer3P}>router</span>
-  <span className={style.Footer3P}>router</span>
-  <span className={style.Footer3P}>router</span>
 <span className={style.Footer3P}>router</span>
 <span className={style.Footer3P}>router</span>
- <span className={style.Footer3P}>router</span>
-  <span className={style.Footer3P}>router</span>
-  <span className={style.Footer3P}>router</span>
-  <span className={style.Footer3P}>router</span>
+ <span className={style.Footer3P}>router</span></div>
   <span className={style.Footer3P}>router</span>
   <span className={style.Footer3P}>router</span>
   <span className={style.Footer3P}>router</span>
@@ -47,8 +42,11 @@ const Footer = () => {
   <span className={style.Footer3P}>router</span>
   <span className={style.Footer3P}>router</span>
 
+  <span className={style.Footer3P}>router</span>
+
 </div>
   <div className={style.Footer3Div}>
+    <div className={style.Footer3Div}>
   <span className={style.Footer3P}>router</span>
     <span className={style.Footer3P}>router</span>
   <span className={style.Footer3P}>router</span>
@@ -57,10 +55,9 @@ const Footer = () => {
   <span className={style.Footer3P}>router</span>
   <span className={style.Footer3P}>router</span>
 <span className={style.Footer3P}>router</span>
-<span className={style.Footer3P}>router</span>
- <span className={style.Footer3P}>router</span>
+
   <span className={style.Footer3P}>router</span>
-  <span className={style.Footer3P}>router</span>
+  <span className={style.Footer3P}>router</span></div>
   <span className={style.Footer3P}>router</span>
   <span className={style.Footer3P}>router</span>
   <span className={style.Footer3P}>router</span>
